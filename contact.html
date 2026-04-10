@@ -24,49 +24,75 @@
            </ul> 
         </nav>
     </header>
-   <main>
-        <main class="contact">
-    <section>
-        <h2>Contactez-moi</h2>
-        <p>Je suis basé à Lubumbashi. N'hésitez pas à me contacter via le formulaire ou directement par téléphone, WhatsApp ou Telegram.</p>
-        
+   <main class="contact-page">
+    <section class="entertainment-hero">
+        <h1>Entrons en contact</h1>
+        <p>Une idée de projet, une question ou simplement envie de discuter ? Mon bureau est à Lubumbashi, mais je suis disponible partout en ligne.</p>
+    </section>
+
+    <section class="contact-wrapper">
         <div class="contact-container">
             
             <div class="contact-info">
                 <h3>Mes coordonnées</h3>
-                <p><i class="fa-solid fa-location-dot"></i> Lubumbashi, RDC</p>
-                <p><i class="fa-solid fa-phone"></i> +243 99 815 5515</p>
+                <p class="contact-desc">Basé à Lubumbashi, RDC, je réponds généralement en moins de 24 heures.</p>
                 
-                <div class="contact-social">
-                    <a href="https://wa.me/243998175515" target="_blank">
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Lubumbashi, Haut-Katanga, RDC</span>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Joboy19@gmail.com</span>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+243 99 815 5515</span>
+                </div>
+
+                <div class="contact-social-apps">
+                    <a href="https://wa.me/243998155515" target="_blank" class="app-btn whatsapp">
                         <i class="fa-brands fa-whatsapp"></i> WhatsApp
                     </a>
                     
-                    <a href="https://t.me/username" target="_blank">
+                    <a href="https://t.me/+243998155515" target="_blank" class="app-btn telegram">
                         <i class="fa-brands fa-telegram"></i> Telegram
                     </a>
                 </div>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form shadow-effect">
                 <div class="form-group">
-                    <label>Nom</label>
-                    <input type="text" placeholder="Votre nom" required>
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" placeholder="Ex: Ocean Ntambwe" required>
                 </div>
 
                 <div class="form-group">
-                    <label>Téléphone</label>
-                    <input type="tel" placeholder="Votre numéro" required>
+                    <label for="email">Adresse Email</label>
+                    <input type="email" id="email" placeholder="votre@email.com" required>
                 </div>
 
-                <button type="submit">Envoyer</button>
+                <div class="form-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" placeholder="+243..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" rows="5" placeholder="Comment puis-je vous aider ?" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span>Envoyer le message</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
             </form>
 
         </div>
     </section>
 </main>
-        
-   </main>
     <footer>
         <div>
             <p>&copy;2026 Joboy. Tous droits réservés.</p>
